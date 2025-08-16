@@ -1,8 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { CiBookmark } from 'react-icons/ci';
 
-const Blog = ({ blog }) => {
-    console.log(blog)
+const Blog = ({ blog, handleBookmarks }) => {
+    
     const { author, author_img, title, cover, posted_date, reading_time, hashtags } = blog;
 
     return (
@@ -17,7 +18,7 @@ const Blog = ({ blog }) => {
                     </div>
                 </div>
                 <div>
-                    <span>{reading_time} min read</span>
+                    <span className='flex justify-center'>{reading_time} min read <button onClick={() => handleBookmarks(blog)}><CiBookmark /></button></span>
                 </div>
                
             </div>
