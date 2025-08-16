@@ -1,0 +1,44 @@
+
+
+[
+  {
+    "id": 101,
+    "cover": "https://i.ibb.co.com/PGwbcYBy/kaitlyn-baker-v-ZJd-Yl5-JVXY-unsplash.jpg",
+    "title": "Mastering useEffect: From Basics to Pro Tips",
+    "author_img": "https://i.ibb.co.com/JF3G4BB2/ivana-cajina-7-Lb-C5-J-jw4-unsplash.jpg",
+    "author": "Ayesha Rahman",
+    "posted_date": "2025-08-05",
+    "reading_time": 7,
+    "hashtags": ["#React", "#Hooks", "#Frontend"]
+  },
+  {
+    "id": 102,
+    "cover": "https://i.ibb.co.com/XkM6Gnms/tablet-which-you-can-read-blog.jpg",
+    "title": "JavaScript Array Tricks You’ll Actually Use",
+    "author_img": "https://i.ibb.co.com/Xrc1B2DS/ian-dooley-d1-UPki-Fd04-A-unsplash.jpg",
+    "author": "Naim Hasan",
+    "posted_date": "2025-08-06",
+    "reading_time": 6,
+    "hashtags": ["#JavaScript", "#Tips", "#Arrays"]
+  },
+  {
+    "id": 103,
+    "cover": "https://i.ibb.co.com/9m97yLPP/19375.jpg",
+    "title": "Tailwind CSS Layouts: 5 Patterns to Copy",
+    "author_img": "https://i.ibb.co.com/dJG28Mkd/rayul-M6gy9o-Hg-II-unsplash.jpg",
+    "author": "Mehjabin Akter",
+    "posted_date": "2025-08-02",
+    "reading_time": 5,
+    "hashtags": ["#CSS", "#Tailwind", "#UI"]
+  },
+  {
+    "id": 104,
+    "cover": "https://i.ibb.co.com/1YjsTFnH/arnel-hasanovic-MNd-Rka1o0-Q-unsplash.jpg",
+    "title": "REST vs GraphQL: When to Choose What",
+    "author_img": "https://i.ibb.co.com/mCd5FQfM/ken-whytock-z84-N-EK3-KFA-unsplash.jpg",
+    "author": "Rafi Chowdhury",
+    "posted_date": "2025-08-08",
+    "reading_time": 9,
+    "hashtags": ["#API", "#REST", "#GraphQL"]
+  }
+]
