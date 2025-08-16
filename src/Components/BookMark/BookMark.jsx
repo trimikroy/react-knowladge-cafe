@@ -1,6 +1,7 @@
 import React from 'react';
 
-const BookMark = ({bookmark}) => {
+const BookMark = ({ bookmark }) => {
+    
     const {title} = bookmark;
     return (
         <div className='px-4 '>

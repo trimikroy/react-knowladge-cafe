@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { CiBookmark } from 'react-icons/ci';
 
-const Blog = ({ blog, handleBookmarks }) => {
+const Blog = ({ blog, handleBookmarks, handleMarkAsRead }) => {
     
     const { author, author_img, title, cover, posted_date, reading_time, hashtags } = blog;
 
@@ -29,7 +29,9 @@ const Blog = ({ blog, handleBookmarks }) => {
                 }
             </p>
 
-            <a className='underline' href="">Mark as Read </a>
+            <button className='text-blue-500 underline' onClick={()=> handleMarkAsRead(reading_time)}>Mark as Read</button>
+
+           
         </div>
     );
 };
